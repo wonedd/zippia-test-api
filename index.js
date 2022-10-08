@@ -42,6 +42,7 @@ app.get("/test/jobs", async (req, res) => {
     res.send(jobs);
 }); 
 
+
 app.get("/test/jobs/:companyName", (req, res) => {
     const { companyName } = req.params;
 
